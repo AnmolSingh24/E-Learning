@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 252, 212);
+}
+
+.Header .Back-Btn-Icon {
+    background-color: rgb(212, 252, 212);
+    display: flex;
+    gap: .5rem;
+}
+
+.Back-Btn-Icon a {
+    padding-top: .8rem;
+    padding-left: .8rem;
+}
+
+.Main {
+    height: 100vh;
+}
+
+.Main-Container {
+    background-color: rgb(212, 252, 212);
+}
+
+.Main-Container .Main-Info {
+    display: flex;
+    padding: 5rem 15rem 2rem 12rem;
+    margin-bottom: 2rem;
+    /* background-color: lightgreen; */
+}
+
+.Main-Container .Main-Info h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Main-Container .Main-Info p {
+    margin-top: -19rem;
+    margin-left: -2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.Main-Info-Logo img {
+    width: 300px;
+    height: 300px;
+    margin-top: -3rem;
+}
+
+.Title {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(61, 198, 2);
+    margin-top: -8rem;
+}
+
+.Courses-Container {
+    display: flex;
+    gap: 5rem;
+    margin-left: 10rem;
+}
+
+.Courses-Container:nth-last-child(2) {
+    margin-bottom: 2rem;
+}
+
+.Courses-Container .Courses {
+    background-color: #fff;
+    padding: 20px;
+    height: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.Courses-Container .Courses:hover {
+    box-shadow: 1px 5px 8px 1px darkgray;
+    transition: .3s;
+}
+
+.Courses-Container .Courses img {
+    border-radius: 5px;
+}
+
+.Courses .Courses-Info {
+    text-align: center;
+    line-height: .6rem;
+}
+
+.Courses .Courses-Info h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Courses .Courses-Info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgb(84, 83, 83);
+}
+
+.Courses .Courses-Info button {
+    cursor: pointer;
+    padding: 8px 20px 8px 20px;
+    background-color: rgba(54, 222, 3, 0.852);
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.Courses .Courses-Info button:hover {
+    background-color: rgba(78, 249, 26, 0.852);
+    box-shadow: 1px .4px 5px 1px darkgray;
+}

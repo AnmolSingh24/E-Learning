@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(212, 252, 212);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(61, 198, 2);
+    padding-bottom: 2rem;
+}
+
+.book-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.book {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.book:hover{
+    box-shadow: 1px 5px 8px 1px darkgray;
+    transition: .3s;
+}
+
+.book img {
+    width: 60%;
+    height: auto;
+    margin: 2rem;
+}
+
+.book-title {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.book-price {
+    color: #888;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.buy-button {
+    display: block;
+    width: 100%;
+    background-color: rgb(61, 198, 2);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.buy-button:hover{
+    background-color: rgb(114, 255, 53);
+    box-shadow: 1px 3px 5px 1px darkgray;
+    transition: .3s;
+}

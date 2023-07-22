@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(212, 252, 212);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(174, 250, 174);
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.5px;
+    margin-top: -.2rem;
+}
+
+input {
+    padding: 8px;
+    margin-top: -.6rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(220, 251, 220);
+}
+
+.LoginUsernameError,
+.LoginPasswordError {
+    color: red;
+    margin: 0px;
+    text-align: left;
+    line-break: normal;
+}
+
+button {
+    background-color: #07f857;
+    color: white;
+    padding: 8px 15px;
+    margin-top: -.3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4dd458;
+}
+
+p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    margin-top: -.5rem;
+}
+
+a {
+    text-decoration: none;
+}

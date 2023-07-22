@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(239, 239, 250);
+}
+
+/*  header starts  */
+
+
+.header-container {
+    display: flex;
+    border-bottom: 1px solid rgb(209, 208, 208);
+}
+
+.header-container img {
+    width: 38px;
+    height: 38px;
+    margin-top: .3rem;
+    margin-left: 3rem;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+}
+
+.header-container-items {
+    padding-left: 1rem;
+}
+
+.header-container-items a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(61, 198, 2);
+    cursor: pointer;
+}
+
+.header-container-items a:hover {
+    color: rgb(108, 232, 55);
+}
+
+.header-container-items:nth-last-of-type(2) {
+    padding-top: .8rem;
+}
+
+.header-container-items2 ul {
+    display: flex;
+    gap: 2rem;
+    padding-left: 14rem;
+}
+
+.header-container-items2 li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-container-items2 li a:hover {
+    color: rgb(108, 232, 55);
+}
+
+.header-container-items2 ul li a:nth-last-of-type(1) {
+    font-size: 15px;
+}
+
+.header-container-items2 li {
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-container-items2 li:hover {
+    color: rgb(108, 232, 55);
+}
+
+/* header ends */
+
+/* main starts */
+
+.main {
+    height: 100vh;
+}
+
+.main-container {
+    padding-left: 12rem;
+}
+
+.main-content-item {
+    display: flex;
+    margin-top: 10rem;
+}
+
+.main-content-item button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(54, 222, 3, 0.852);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.main-content-item button:hover {
+    background-color: rgba(78, 249, 26, 0.852);
+    box-shadow: 1px .4px 5px 1px darkgray;
+}
+
+.main-content-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.8rem;
+}
+
+.main-content-item .main-content-img img {
+    margin-top: -3rem;
+    margin-left: 10rem;
+    width: 58%;
+    height: 100%;
+}
+
+/*  Course section starts  */
+
+.course-container {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.course-content {
+    margin-left: 8rem;
+    background-color: #f4fcfb;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.course-content .course-topic p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.course-topic p span {
+    color: rgb(140, 140, 140);
+    cursor: pointer;
+}
+
+.course-content img {
+    width: 60px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.course-content svg {
+    justify-content: center;
+    align-items: center;
+}
+
+.course-content:hover {
+    box-shadow: 1px .5px 8px 2px darkgray;
+}
+
+/*  Course section ends  */
+
+
+.online-course-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 5rem;
+    padding-left: 30rem;
+    color: rgb(61, 198, 2);
+}
+
+.online-course-container {
+    display: flex;
+}
+
+.online-course-content {
+    margin-top: 3rem;
+    margin-left: 2.7rem;
+    background-color: #f4fcfb;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.online-course-content img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.online-course-content .online-course-topic p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.online-course-topic p span {
+    color: rgb(140, 140, 140);
+    cursor: pointer;
+}
+
+.online-course-content .online-course-topic button {
+    width: 100%;
+    padding: .5rem 2rem;
+    border-radius: 3px;
+    background-color: rgb(61, 198, 2);
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.online-course-topic button:hover {
+    background-color: rgb(108, 232, 55);
+    box-shadow: 1px 5px 5px 2px darkgray;
+    transition: .3s;
+}
+
+.online-course-content:hover {
+    box-shadow: 1px .5px 8px 2px darkgray;
+}
+
+/*  Online Course section ends  */
+
+/*  Testimonal section starts  */
+
+.testimonal-container>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(61, 198, 2);
+    padding-top: 5rem;
+    padding-left: 30rem;
+}
+
+.testimonal-content {
+    display: flex;
+    gap: 3rem;
+}
+
+.testimonal-content img {
+    width: 150px;
+    height: 150px;
+    margin-left: 6rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.testimonal-content img:hover {
+    box-shadow: 1px .5px 8px 2px darkgray;
+    transition: .3s;
+}
+
+.testimonal-info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+
+.testimonal-info p span {
+    cursor: pointer;
+}
+
+.testimonal-info p span:hover {
+    text-decoration: underline;
+    color: rgb(2, 151, 215);
+}
+
+/*  Testimonal section starts  */
+/*  main ends  */
+
+/*  footer starts  */
+
+.footer-container {
+    margin-top: 50rem;
+    padding-top: 1.5rem;
+    display: flex;
+    background-color: rgb(0, 14, 53);
+}
+
+.footer-info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 8rem;
+    padding-top: 3rem;
+    color: rgb(209, 208, 208);
+
+}
+
+.footer-items {
+    padding-left: 6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-items h3 {
+    color: white;
+
+}
+
+.footer-items p {
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(175, 175, 175);
+}
+
+.footer-items p:hover {
+    text-decoration: underline;
+    color: rgb(2, 151, 215);
+}
+
+.footer-items:nth-last-of-type(1) a {
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+/*  social links starts  */
+.social-links h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 1rem 0rem 0rem 6rem;
+    margin: 0;
+}
+
+.social-links-container {
+    display: flex;
+    gap: 1rem;
+    margin-left: 7rem;
+}
+
+.social-links-container .social-links-items img {
+    width: 35px;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+/*  social links ends  */
+
+/*  trademark starts  */
+.footer-container .trademark {
+    padding-left: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 10.5rem;
+    margin-left: -15rem;
+}
+/*  trademark ends  */
+
+/*  footer ends  */

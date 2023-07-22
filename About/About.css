@@ -1,0 +1,79 @@
+body {
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 252, 212);
+}
+
+.Back-Btn-Icon a svg {
+    padding-top: .8rem;
+    padding-left: .8rem;
+}
+
+.Header-Container{
+    position: relative;
+    animation: About 1s ease-in-out 0s 1 normal forwards;
+}
+
+@keyframes About {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    70%{
+        top: 30px;
+    }
+
+    90% {
+        top: 40px;
+    }
+
+    100% {
+        top: 50px;
+    }
+
+}
+
+.Header h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.Header h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 2rem;
+    word-spacing: .1rem;
+}
+
+p b{
+    color: rgb(61, 198, 2);
+}
+
+p:nth-last-of-type(1) {
+    font-weight: 600;
+}
+
+p:nth-last-of-type(2) a {
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+}
+
+p:nth-last-of-type(2) a:hover {
+    text-decoration: underline;
+    color: rgb(2, 135, 11);
+}
